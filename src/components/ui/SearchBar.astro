@@ -1,0 +1,24 @@
+---
+import { Icon } from 'astro-icon/components'
+---
+
+<div class="search-bar">
+  <form action="/search" method="get">
+    <input type="text" name="q" placeholder="Search..." class="search-input" />
+    <button type="submit" class="search-button">
+      <Icon name="search" />
+    </button>
+  </form>
+</div>
+
+<style>
+  .search-bar {
+    @apply flex items-center;
+  }
+  .search-input {
+    @apply bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-200 rounded-l-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+  .search-button {
+    @apply bg-primary-500 text-white rounded-r-md px-4 py-2 hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+</style>

@@ -1,24 +1,42 @@
 # WordIslam
 
 ![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-![HTML5](https://img.shields.io/badge/HTML-5-orange)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.0.x-blueviolet)
+![Astro](https://img.shields.io/badge/Astro-v1.0.x-orange)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3.x-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-WordIslam is an open-source project aimed at [describe the purpose of the project here].
+## Table of Contents
+- [Tentang App](#tentang-app)
+- [Kontribusi](#kontribusi)
+- [Dukungan](#dukungan)
+- [Lisensi](#lisensi)
 
-## Contributing
+## Tentang App
 
-We welcome contributions from everyone. Whether you're a seasoned developer or a beginner, your help is appreciated. Here's how you can contribute:
+WordIslam adalah proyek open source yang bertujuan mengumpulkan konten Islami dari berbagai sumber sehingga bisa memberikan kebermanfaatan terhadap umat.
 
-1. Fork this repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
+## Kontribusi
 
-## Support
+Jika Anda bersedia dan berkeinginan untuk berkontribusi dalam proyek ini, dengan senang hati kami menerima bantuan berupa dukungan teknis & konten melalui:
 
-If you like this project, you can support its development by [buying me a coffee](https://www.buymeacoffee.com/andywahyudi).
+A. Dukungan teknis melalui [Github](https://github.com/andywahyudi/wordislam)
+1. Fork repositori ini.
+2. Buat branch baru.
+3. Melakukan perubahan pada kode dan konten.
+4. Submit pull request.
 
-## License
+B. Dukungan konten melalui [Google Form]()
 
-This project is open-source and available under the [MIT License](LICENSE).# wordislam
+
+## Dukungan
+
+Jika Anda menyukai proyek ini dan ingin mendukung keberlangsungan website ini, dengan senang hati kami menerima bantuan berupa dukungan finansial melalui: 
+
+1. Melalui [Buy Me Coffee](https://www.buymeacoffee.com/andywahyudi).
+2. Melalui [Paypal](https://paypal.me/andywahyudi).
+3. Melalui QRIS [Saweria](https://saweria.co/andyweb).
+
+
+## Lisensi
+
+Ini adalah proyek open-source dan tersedia dengan lisensi [MIT License](LICENSE).
