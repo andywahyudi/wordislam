@@ -17,7 +17,7 @@
 import { Image } from 'astro:assets'
 import Card from './partials/Card.astro'
 import CardBody from './partials/CardBody.astro'
-// import Badge from '../Badge.astro'
+import Badge from '../Badge.astro'
 
 // Props
 type Props = {
@@ -55,7 +55,7 @@ const {
 		
 	</CardBody>
 
-	<!-- {
+	{
 		tags && (
 			<div class="post-tags">
 				{tags.map((tag: string) => (
@@ -63,7 +63,7 @@ const {
 				))}
 			</div>
 		)
-	} -->
+	}
 	
 </Card>
 
