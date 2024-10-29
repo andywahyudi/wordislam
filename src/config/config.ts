@@ -21,9 +21,9 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'WordIslam. Islamic Content Hub',
+	siteTitle: 'WordIslam. Islamic Sources Hub',
 	siteDescription:
-		'WordIslam is an Islamic Content Hub.',
+		'WordIslam is an Islamic Sources Hub.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',

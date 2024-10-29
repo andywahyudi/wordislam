@@ -34,7 +34,7 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'Islamic Content Hub',
+		alt: 'Islamic Sources Hub',
 		text: 'WordIslam'
 	},
 	navItems: [
