@@ -1,0 +1,60 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+
+// Content
+// - SEO
+const SEO = {
+	title: 'WordIslam | Tentang Kami',
+	description:
+		"WordIslam adalah sebuah website yang menyediakan berbagai informasi tentang Islam."
+}
+// - Page Header
+const header = {
+	title: 'Tentang Kami',
+	text: 'Tentang WordIslam.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Mukaddimah</h3>
+			<p>
+				&nbsp;
+			</p>
+		</div>
+		<div class="basic-text">
+			<h4>Selamat Datang di website WordIslam</h4>
+			<p>
+				Assamu'alaikum wa rohmatullahi wa barokatuh.
+				WordIslam diinisiasi oleh seorang IT Enthusiast yang bernama <strong>Andy W</strong>.
+			</p>
+			<p>
+				Website ini bertujuan untuk memberikan informasi tentang Islam secara lengkap.
+                Dan website ini tidak bertujuan khusus untuk mendapatkan keuntungan.
+			</p>
+
+			<h4>Kontak Kami</h4>
+			<p>
+				Anda dapat menghubungi kami melalui email di <a href="mailto:wordislam@gmail.com">wordislam@gmail.com</a>
+			</p>
+			
+			<h4>Dukungan</h4>
+			<p>
+				Jika Anda menyukai proyek ini dan ingin mendukung keberlangsungan website ini, dengan senang hati kami menerima bantuan berupa dukungan finansial melalui: 
+                <li>Melalui <a href="https://www.buymeacoffee.com/andywahyudi" target="_blank">Buy Me Coffee</a> ↗</li>
+                <li>Melalui <a href="https://paypal.me/andywahyudi" target="_blank">Paypal</a> ↗</li>
+                <li>Melalui <a href="https://saweria.co/andyweb" target="_blank">QRIS</a> ↗</li>
+			</p>
+			<p>
+				Kontribusi Anda akan membantu dalam dakwah Islam.
+			</p>
+		</div>
+	</SidebarContent>
+</Layout>

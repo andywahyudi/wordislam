@@ -5,7 +5,7 @@ description: 'Hadits dengan berbagai format.'
 price: ''
 author: ''
 image: '/blog/hadits.jpg'
-tags: ['hadits']
+tags: ["Hadits"]
 getStarted: ''
 liveDemo: ''
 ---

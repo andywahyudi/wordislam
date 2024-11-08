@@ -43,10 +43,10 @@ export const navigationBarData: NavData = {
 			name: 'Kontribusi',
 			link: '/kontribusi'
 		},
-		{
-			name: 'Submit Konten',
-			link: '/submit-konten'
-		},
+		// {
+		// 	name: 'Submit Konten',
+		// 	link: '/submit-konten'
+		// },
 	],
 	navActions: [
 		// { name: 'Submit Template', link: '/submit-template', style: 'primary', size: 'lg' }
